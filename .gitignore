@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Output directories & checkpoints
+LOGDIR/
+model_save/
+output_img_gamma.png
+*.log
+
+# Datasets (large generated files)
+cleaned.csv
+cleaned_preprocessed.csv
+portfolios_sample.csv
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
